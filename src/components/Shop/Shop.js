@@ -31,9 +31,7 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div className="card-container">
-                <h3>Order Summary</h3>
-                <p>Select cart:{carts.length}</p>
+            <div className="card-container">                          
                   <Cart carts={carts}></Cart>              
             </div>
         </div>
