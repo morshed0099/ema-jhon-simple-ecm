@@ -1,0 +1,16 @@
+.shop{
+    display: grid;
+    grid-template-columns:4fr 1fr; 
+    padding: 10px; 
+    
+}
+
+.product-container{
+    display: grid;
+    gap:30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.card-container{
+    background-color: #FF99004D;
+
+}
